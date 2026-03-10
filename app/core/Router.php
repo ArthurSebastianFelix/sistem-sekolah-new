@@ -34,7 +34,7 @@ public function add(string $method, string $uri, string $controller, string $fun
 
         if (preg_match($pattern, $uri, $matches )) {
             array_shift($matches);
-            require_once './app/controllers/' . $route['controller'] . '.php';
+            require_once '../app/controllers/' . $route['controller'] . '.php';
 
             $controllerClass = 'App\\Controllers\\' . $route['controller'];
             $controller = new $controllerClass();
@@ -48,14 +48,14 @@ public function add(string $method, string $uri, string $controller, string $fun
     }
 
         if ($method == 'GET' && $uri == '/students') {
-            require_once './app/controllers/StudentController.php';
+            require_once '../app/controllers/StudentController.php';
             $controller = new StudentController();
             $controller->index();
             return;
         }
 
         if ($method == 'GET' && $uri == '/students/create') {
-            require_once './app/controllers/StudentController.php';
+            require_once '../app/controllers/StudentController.php';
             $controller = new StudentController();
             $controller->create();
             return;
