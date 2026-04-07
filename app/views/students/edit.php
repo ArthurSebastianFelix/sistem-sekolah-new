@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Siswa</title>
+    <title>Edit Siswa</title>
     <link rel="stylesheet" href="/css/output.css">
 </head>
 <body class="flex flex-col min-h-screen bg-gray-100">
@@ -21,8 +21,8 @@
     <div class="mt-8 space-y-4">
         <!-- Card Header Start -->
          <div class="bg-white shadow p-4 rounded-lg">
-            <h1 class="font-bold text-2xl">Tambah Siswa</h1>
-            <p>Menambahkan siswa baru ke dalam sistem</p>
+            <h1 class="font-bold text-2xl">Edit Siswa</h1>
+            <p>Melakukan perubahan data siswa yang terdaftar</p>
          </div>
         <!-- Card Header End -->
 
