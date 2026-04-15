@@ -5,12 +5,12 @@ require_once '../app/config/app.php';
 class Database
 {
 
-    protected $connection
-    {
+    protected $connection;
 
-    
 
-    public function__construct()
+
+
+    public function __construct()
     {
         $this->connection = mysqli_connect(
             DB_HOST,
@@ -19,12 +19,12 @@ class Database
             DB_NAME
         );
 
-        if (!$this->connection){
+        if (!$this->connection) {
             die('Error to connect database');
         }
     }
-    }
 }
+
 
 
 
