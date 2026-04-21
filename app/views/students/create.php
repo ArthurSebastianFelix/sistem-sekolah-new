@@ -8,7 +8,7 @@
 
     <!-- Card Content Start -->
     <div class="bg-white rounded-lg shadow">
-        <form action="" class="p-4 grid grid-cols-2 gap-4">
+        <form action="/students" method="POST" class="p-4 grid grid-cols-2 gap-4">
             <div class="space-y-4">
                 <label class="font-bold block" for="name">Nama</label>
                 <input class="px-4 py-2 border rounded-lg w-full" type="text" id="name" name="name"
@@ -25,8 +25,8 @@
                     placeholder="Masukkan kelas">
             </div>
             <div class="space-y-4">
-                <label class="font-bold block" for="phone-number">No Telepon</label>
-                <input class="px-4 py-2 border rounded-lg w-full" type="text" id="phone-number" name="phone-number"
+                <label class="font-bold block" for="phone_number">No Telepon</label>
+                <input class="px-4 py-2 border rounded-lg w-full" type="text" id="phone_number" name="phone_number"
                     placeholder="Masukkan No Telepon">
             </div>
             <div class="flex justify-end gap-4 col-span-2">
